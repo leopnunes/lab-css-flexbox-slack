@@ -13,13 +13,14 @@
 
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
-    <title>Where work happens | Slack</title>
+    <title>Where Work Happens</title>
   </head>
 
   <body>
     <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
+      <img class="slacklogo" src="./images/slack-logo.png" alt="slack_logo" />
+      <img class="hamburguinho" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AAAC8vLzt7e2ysrJycnIiIiLHx8fw8PCFhYWamprj4+PBwcHNzc3p6em4uLgvLy9CQkI3Nzd/f39qampvb2+Pj4+ioqLa2tpUVFRKSkr29vYYGBirq6smJiY9PT1hYWEPDw9YWFg1kJmwAAACDklEQVR4nO3d7XbBUBCF4UN8NwhRQqro/V9kiR/VH5pZM5Y5R9/nCvZe0ZzEmqkQAAAAAAAAAAAAAAAAAAAAnqvKu3Eajh5RbzTuRGzRNRece3doszVex413gXZFZik49I4vsbA09A4vM9EX3HtnF9I33HlHFxpqC9Yf3tGF1B/TN+/kUn0a3vP6n9LXv9P8g9Pi9U/8kHuHl1gaCoYw8Y7f7nNmahh63gXabE2vFhdZ6d3hL4e5tV+jmvfilD/kWwwAAAAAAAAAAAAAABCVOovUgwYV8tWn90zJXbu1cVzobBb7fOLaWHDqXaDd0VQwiSlh9YTwxcE7vUiuL5jEykynM9A3PHpnF6rUDQfe0YU22oIz7+RSpbZhEnfSi3dtw9HJO7qQ/tRfekcX0g8Kr72jC9XqhiPv6DKWh5oElhHOTC9RK+/0Avqtp0bfO3+rqa3g+QU47htqX3+X+VFtyn6cxl3zwgwAAAAAAAAAAAAAAMBz1ftjMYjTYWwepgnRT+8V1o7ZwrtCK/UIdKOOeyDqam9pmMLgnmVUP1Te2WW2+oZR/5PkG/oFtsI7ulBPW5B9i2io9y1e/xqGeNdjf1P/HSYw5H2lv5cmch7u1AVTWUA0PNOEOoUT0fboPYt/E9jyGyzNVYz6Bx7P74fGjZmLbPN18u5xR1E+oB8AAAAAAAAAAAAAAAAAAABufQPXyzi7ezBe2AAAAABJRU5ErkJggg==" alt="hamburguinho" />
+      <ul class="hamburguer">
         <li>Why Slack?</li>
         <li>Pricing</li>
         <li>About Us</li>
@@ -27,75 +28,88 @@
       </ul>
     </nav>
     <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
-      <h1>Where Work Happens</h1>
-      <p>
+      <h1 class="title">Where Work Happens</h1>
+      <p class="texto1">
         When your team needs to kick off a project, hire a new employee, deploy
         some code, review a sales contract, finalize next year's budget, measure
         an A/B test, plan your next office opening, and more, Slack has you
         covered.
       </p>
-      <button type="button" name="button">GET STARTED</button>
-      <p>Already using Slack? <a href="#">Sign in</a></p>
+
+      <div class="contato">
+      <form>
+        <input class="email" placeholder="Email address">
+      </form>
+      <button class="botaoprincipal" type="button" name="button">GET STARTED</button>
+      <p>Already using Slack? <a class="hyperlink" href="#">Sign in.</a></p>
+    </div>
     </header>
     <main>
       <div>
-        <h2>You're in good company</h2>
-        <p>
+        <img class="homework" src="./images/home_talking.png" alt="home_work_happening" />
+        <div class="destaque">
+        <h2 class="title">You're in good company</h2>
+        <p class="texto1">
           Millions of people around the world have already made Slack the place
           where their work happens.
         </p>
-        <button>DISCOVER WHY</button>
-        <img src="./images/airbnb-logo.png" alt="" />
-        <img src="./images/capital-one-logo.png" alt="" />
-        <img src="./images/harvard-logo.png" alt="" />
-        <img src="./images/los-angeles-times-logo.png" alt="" />
-        <img src="./images/oracle-logo.png" alt="" />
-        <img src="./images/ticketmaster-logo.png" alt="" />
+        <button class="botaosecundario">DISCOVER WHY</button>
+        <img class="airbnb" src="./images/airbnb-logo.png" alt="" />
+        <img class="capitalone" src="./images/capital-one-logo.png" alt="" />
+        <img class="harvard" src="./images/harvard-logo.png" alt="" />
+        <img class="losangelestimes" src="./images/los-angeles-times-logo.png" alt="" />
+        <img class="oracle" src="./images/oracle-logo.png" alt="" />
+        <img class="ticketmaster" src="./images/ticketmaster-logo.png" alt="" />
       </div>
-      <div>
-        <p>Try it for free</p>
-        <p>Already using Slack? <a href="">Sign in</a></p>
-        <button type="button" name="button">GET STARTED</button>
+    </div>
+
+      <div class="contato">
+        <p class="tryit">Try it for free</p>
+        <p>Already using Slack? <a class="hyperlink" href="#">Sign in.</a></p>
+        <form>
+          <input class="email" placeholder="Email address">
+        </form>
+        <button class="botaoprincipal" type="button" name="button">GET STARTED</button>
       </div>
     </main>
     <footer>
-      <div>
-        <img src="./images/iso-slack.png" alt="" />
+        <img class='minislack' src="./images/iso-slack.png" alt="" />
+        <div class="final">
         <ul>
-          <li>COMPANY</li>
-          <li>About Us</li>
-          <li>Careers</li>
-          <li>Blog</li>
-          <li>Press</li>
-          <li>Brand Guidelines</li>
+          <li class="subtitulo">COMPANY</li>
+          <li class="subitem">About Us</li>
+          <li class="subitem">Careers</li>
+          <li class="subitem">Blog</li>
+          <li class="subitem">Press</li>
+          <li class="subitem">Brand Guidelines</li>
         </ul>
         <ul>
-          <li>PRODUCT</li>
-          <li>Why Slack?</li>
-          <li>Enterprise</li>
-          <li>Customer Stories</li>
-          <li>Pricing</li>
-          <li>Security</li>
+          <li class="subtitulo">PRODUCT</li>
+          <li class="subitem">Why Slack?</li>
+          <li class="subitem">Enterprise</li>
+          <li class="subitem">Customer Stories</li>
+          <li class="subitem">Pricing</li>
+          <li class="subitem">Security</li>
         </ul>
         <ul>
-          <li>RESOURCES</li>
-          <li>Download</li>
-          <li>Help Center</li>
-          <li>Guides</li>
-          <li>Events</li>
-          <li>App Directory</li>
-          <li>API</li>
+          <li class="subtitulo">RESOURCES</li>
+          <li class="subitem">Download</li>
+          <li class="subitem">Help Center</li>
+          <li class="subitem">Guides</li>
+          <li class="subitem">Events</li>
+          <li class="subitem">App Directory</li>
+          <li class="subitem">API</li>
         </ul>
         <ul>
-          <li>EXTRAS</li>
-          <li>Podcast</li>
-          <li>Slack Shop</li>
-          <li>Slack at Work</li>
-          <li>Slack Fund</li>
+          <li class="subtitulo2">EXTRAS</li>
+          <li class="subitem2">Podcast</li>
+          <li class="subitem2">Slack Shop</li>
+          <li class="subitem2">Slack at Work</li>
+          <li class="subitem2">Slack Fund</li>
         </ul>
       </div>
-      <div>
+    </div>
+      <div class="footer">
         <ul>
           <li>Status</li>
           <li>Privacy & Terms</li>
@@ -109,6 +123,7 @@
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-youtube"></i>
         </div>
+      </div>
       </div>
     </footer>
   </body>

@@ -5,3 +5,201 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Playfair+Display:wght@500;700&display=swap');
+
+* {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #5b5e6d;
+}
+
+.slacklogo {
+    width: 100px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.hamburguinho {
+    width: 35px;
+    height: 35px;
+    margin-top: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #2C303F;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.texto1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.homework {
+    width: 100%;
+}
+
+.hamburguer {
+    display:none;
+}
+
+.email {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-color: #F4F3F4;
+    padding: 10px;
+}
+
+.contato {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botaoprincipal {
+    width: 100%;
+    background-color: #192592;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    border-color: #192592;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hyperlink {
+    color: #192592;
+}
+
+.destaque {
+    background-color: #F4F3F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botaosecundario {
+    width: 90%;
+    margin-top: 20px;
+    border-color: #192592;
+    color: #192592;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.airbnb {
+    width: 40%;
+    margin: 40px;
+}
+
+.capitalone {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.harvard {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.losangelestimes {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.oracle {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.ticketmaster {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.tryit {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #2C303F;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.minislack {
+    width: 20%;
+}
+
+.final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 7%;
+}
+
+.subtitulo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #898c95;
+    list-style: none;
+    margin: 0%;
+    margin-top: 40px;
+}
+
+.subitem {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    color: #898c95;
+    margin: 0%;
+    margin-top: 15px;
+}
+
+.subtitulo2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #898c95;
+    list-style: none;
+    margin: 10%;
+    margin-top: 40px;
+}
+
+.subitem2 {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    color: #898c95;
+    margin-right: 10%;
+}
+
+@media (min-width: 767px) and (max-width: 960px) {
+    * {
+        background-color: green;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1024px) {
+    * {
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 1025px) {
+    * {
+        background-color: blue;
+    }
+}
